@@ -20,7 +20,7 @@ const translations: Translations = {
   en: {
     Index: { title: "Software Engineer" },
     Metadata: {
-      title: "Portfolio",
+      title: "Arthur Kellermann",
       description:
         "Simple BoilerPlate for language switcher and theme switcher",
     },
@@ -28,7 +28,7 @@ const translations: Translations = {
   pt: {
     Index: { title: "Engenheiro de Software" },
     Metadata: {
-      title: "Portifólio",
+      title: "Arthur Kellermann",
       description: "Modelo Simples para o alternador de idiomas e tema",
     },
   },

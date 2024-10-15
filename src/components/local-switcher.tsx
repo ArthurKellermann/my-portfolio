@@ -20,6 +20,7 @@ export function LocalSwitcher() {
         onCheckedChange={(checked) =>
           handleChangeLanguage(checked ? "pt" : "en")
         }
+        className="dark:bg-white"
       />
       <span className="mt-2">
         {localActive === "en" ? "EN" : "PT"}
