@@ -3,6 +3,7 @@
 import { EmailIcon } from "@/components/icons/email-icon";
 import { LocalSwitcher } from "@/components/local-switcher";
 import { ModeToggle } from "@/components/mode-toggle";
+import { ContactSection } from "@/components/sections/contact-section";
 import { ExperienceSection } from "@/components/sections/experience-section";
 import { ProjectsSection } from "@/components/sections/projects-section";
 import { TechnologiesSection } from "@/components/sections/technologies-section";
@@ -54,6 +55,8 @@ export default function Home({
       <ProjectsSection />
 
       <TechnologiesSection />
+
+      <ContactSection />
     </main>
   );
 }
