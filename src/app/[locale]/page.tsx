@@ -1,13 +1,12 @@
 "use client";
 
+import { EmailIcon } from "@/components/icons/email-icon";
 import { LocalSwitcher } from "@/components/local-switcher";
 import { ModeToggle } from "@/components/mode-toggle";
 import { ExperienceSection } from "@/components/sections/experience-section";
 import { ProjectsSection } from "@/components/sections/projects-section";
+import { TechnologiesSection } from "@/components/sections/technologies-section";
 import TypeWritingTitle from "@/components/type-writing-title";
-import { Card } from "@/components/ui/card";
-
-import Image from "next/image";
 
 export default function Home({
   params: { locale },
@@ -53,6 +52,8 @@ export default function Home({
       <ExperienceSection />
 
       <ProjectsSection />
+
+      <TechnologiesSection />
     </main>
   );
 }
